@@ -1,0 +1,262 @@
+
+
+
+/* Small tablet to big tablet: from 768px to 1024px */
+@media only screen and (max-width: 1024px) {
+    
+    .header-boss .naming {
+        padding: 1.2%;
+    }
+
+    .header-boss .naming h3 {
+        font-size: 90%;
+        text-align: center ;
+    }
+        .main-nav li {
+        display: inline-block;
+        margin-left: 1px;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited { padding: 0 8px;}
+       
+    .plans .plan-box {
+        max-width: 250px;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+
+    .plans .plan-box .card{
+        width: 185px;
+    }
+
+    .plans .plan-box .card span { margin: 7px 0; }
+    .plans .plan-box .card p { font-size: 60%; }
+            
+    .logos ul li img {
+        border: 5px solid rgb(255, 191, 0);
+        width: 90px;
+        height: 30px;
+    }
+    .bene-heading {
+        margin: 3% 0%;
+        font-size: 100%;
+    }
+    
+    .bene-heading h2:before,
+    .bene-heading h2:after { width: 150px; }
+    
+    .section-define blockquote,
+    .referrals-define blockquote {
+        font-size: 70%;
+    }
+    
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    
+    .plan-heading {
+        width: 90%;
+    }
+    .main-plans,
+    .depo-plan { max-width: 100%;
+        margin: 0 10px;
+    }
+
+    
+    .header-boss .naming {
+        padding: 0;
+    }
+
+    .header-boss .naming h3 {
+        font-size: 90%;
+        text-align: center ;
+        margin: 0 10px 0 0;
+    }
+    .header-boss .maths h3 {
+        font-size: 70%;
+        margin: 0 10px;
+    }
+        .main-nav li {
+        display: block;
+        margin-left: 10px;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited { padding: 0 0;}
+        
+    .header-boss .buttons {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    
+    .plan-heading h2,
+    .section-define h2,
+    .bene-heading h2,
+    .referal-heading h2  { font-size: 130%; }
+
+    .bene-heading h2:before,
+    .bene-heading h2:after {
+        width: 80px;
+        vertical-align: 7px;
+    }
+    .main-plans,
+    .span-1-of-4 { max-width: 100%;
+    }
+    .logos ul li img {
+        border: 1px solid rgb(255, 191, 0);
+        width: 50px;
+        height: 20px;
+        margin: 0 1px;
+    }
+        
+    .footer-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 110%;
+        font-weight: 500;
+        text-transform: uppercase;
+     }
+    
+     .footer-box .footer-name {
+
+     }
+    .footer-box .footer-main-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        margin: auto 0;
+    }
+
+    .footer-box .footer-main-nav li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        padding: 20px 6px;
+    }
+}
+
+
+
+/* Small phones: from 0 to 500px */
+@media only screen and (max-width: 500px) {
+    .boss {
+        display: flex;
+        align-items: center;
+        align-content:center;
+        justify-content: space-around;
+    }
+    .header-boss {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-boss .main-nav,
+    .header-boss .buttons {
+        display: none
+    }
+    .define-section .big-button,
+    .define-section .long-button {
+        margin-bottom: 3%;
+        padding-left: 8%;
+    }
+    .plan-heading {
+        width: 90%;
+    }
+    .main-plans,
+    .depo-plan { max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .bene-heading { margin: 4%; }
+    .bene-heading h2:before,
+    .bene-heading h2:after {
+        width: 33px;
+        vertical-align: 7px;
+    }
+    .plan-heading h2,
+    .section-define h2,
+    .bene-heading h2,
+    .referal-heading h2  { font-size: 110%; }
+       
+    .benefits .bene-define h3 { font-size: 70%; }
+       
+    .referral-percent .two { display: none; }
+    .logos ul li img {
+        border: 1px solid rgb(255, 191, 0);
+        width: 50px;
+        height: 20px;
+        margin: 0 1px;
+    }
+    .footer-box .footer-name {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 50%;
+    }
+    .footer-box .footer-nav {
+        align-items: center;
+        justify-content: center;
+        font-size: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

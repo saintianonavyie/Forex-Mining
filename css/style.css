@@ -1,0 +1,1032 @@
+/* 
+    background: linear-gradient(rgba(255, 255, 54, 0.849), rgb(255, 191, 0), rgb(248, 144, 26));   */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding:  0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    background-image: linear-gradient(rgba(12, 10, 10, 0.048), rgba(98, 98, 98, 0)), url(../imgs/images\ \(20\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/*-------------REUSABLES COMPONENT------------*/
+
+
+
+.container-fluid {
+    color: #fff;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+
+}
+
+.long-copy {
+    font-size: 60%;
+    line-height: 20px;
+    color: #fff;
+}
+
+/*  ----------BUTTONS----------  */
+.btn:link,
+.btn:visited {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 7px 30px;
+    margin-left: 10px;
+    border: 1px solid rgb(255, 183, 0);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 60%;
+    font-weight: 400;
+    text-align: center;
+    transition: border 0.5s, background-color 0.5s;
+}
+
+.btn,
+*:focus{
+    outline: 0;
+    box-shadow:none;
+  }
+  
+
+.btn-full:link,
+.btn-full:visited {
+    background: linear-gradient(rgba(255, 255, 54, 0.849), rgb(255, 191, 0), rgb(248, 144, 26));
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    background-color: transparent;
+    color: #fff;
+}
+
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: rgb(255, 183, 0);
+    color: #fff;
+
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+    background: linear-gradient(rgba(255, 255, 54, 0.849), rgb(255, 191, 0), rgb(248, 144, 26));
+    color:#000;
+}
+
+
+
+
+/*------------------------------------------------*/
+/*--FOR THE ADDRESS----*/
+/*------------------------------------------------*/
+
+.address-boss {
+    background-color: rgb(11, 4, 19); 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    outline: none;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3%;
+    margin-left: 2.5%;
+    font-size: 80%;
+    color: #fff;
+    width: 100%;
+}
+
+.address span {
+    padding: 15px;
+}
+
+span {
+    color: rgb(255, 191, 0);
+}
+
+
+/*------------------------------------------------*/
+/*--FOR THE BODY HEADER----*/
+/*------------------------------------------------*/
+
+.main-boss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-boss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.header-boss .naming {
+    padding: 1.5%;
+}
+
+.header-boss .naming h3 {
+    font-size: 100%;
+}
+
+.header-boss .naming h3 span {
+    color: rgb(255, 191, 0);
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-boss .maths {
+    background-color: rgba(81, 71, 88, 0.568);
+    padding: 2%;
+    text-align: center;
+}
+
+.header-boss .maths h3 {
+    font-size: 80%;
+    text-align: center;
+}
+
+.header-boss .maths h3 span {
+    color: rgb(255, 191, 0);
+}
+
+.header-boss.main-nav {
+    margin-left: 30px;
+}
+
+.header-boss .buttons {
+    display: inline-flex;
+    justify-content: center;
+    width: 156px;
+    padding: 0;
+}
+
+.header-boss .buttons .nav-btn {
+    display: flex;
+
+}
+.header-boss .buttons .nav-btn .btn {
+    padding: 4px 15px;
+    font-size: 60%;
+    font-weight: 500;
+}
+.header-boss .buttons .nav-btn .btn:first-child {
+    margin: 0;
+}
+
+/*  ----------MAIN-NAV----------  */
+
+.nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+.nav .main-nav li .active {
+    color: rgb(255, 191, 0);
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 0 8px;
+    font-size: 60%;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color:  rgb(255, 191, 0);
+
+}
+
+
+/*----hr line across------*/
+hr {
+    position: relative;
+    margin: 10px;
+    width: 100%;
+    background-color: rgb(255, 191, 0);
+    z-index: 1500;
+}
+
+/*------------------------------------------------*/
+/*--FOR THE BODY HEADINIGS----*/
+/*------------------------------------------------*/
+
+.define-section {
+    padding-left: 4%;
+}
+
+.define-section h1 {
+    font-size: 240%;
+    color: #fff;
+    margin: 8% 0 2% 0;
+    font-weight: 450;
+}
+
+.box-alpha{
+    padding-left: 5%;
+}
+
+.define-section h1 span {
+    font-weight: 600;
+}
+
+.define-section .box-alpha .long-copy {
+    line-height: 25px;
+    color: #fff;
+    font-size: 80%;
+    width: 400px;
+    word-spacing: 1px;
+}
+
+.define-section .box-alpha h3 {
+    font-size: 120%;
+    font-weight: 600;
+    margin: 2% 0;
+}
+
+.define-section .box-alpha h3 span {
+    color:rgb(255, 191, 0);
+}
+
+/*------------------------------------------------*/
+/*--FOR THE BODY HEADER BUTTONS----*/
+/*------------------------------------------------*/
+
+.define-section .big-button,
+.define-section .long-button {
+    display: inline-flex;
+    width: 400px;
+    font-size: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    padding-left: 5%;
+}
+
+/*-----FOR THE BIG BUTTON-----*/
+
+.define-section .big-button .btn,
+.define-section .long-button .btn {
+    padding: 10px 30px;
+    border: none;
+    font-weight: 500;
+}
+
+.define-section .big-button .btn-ghost,
+.define-section .long-button .btn-ghost{
+    background-color: #fff;
+    color: #000;
+}
+
+.define-section .big-button .btn:first-child {
+    margin-left: 0;
+}
+
+/*-----FOR THE LONG BUTTON-----*/
+
+.main-boss .long-button {
+    display: flex;
+}
+
+.main-boss .long-button .btn-ghost {
+    margin-left: 0;
+    margin-bottom: 20%;
+}
+
+
+
+/*------------------------------------------------*/
+/*--FOR THE BODY COLUMNS ICONS----*/
+/*------------------------------------------------*/
+.deposit-section {
+    background-color: rgba(97, 97, 97, 0.123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans {
+    display:flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content:space-around;
+    width: 80%;
+    margin: 2% 0% 5% 0%;
+}
+
+.plans .plan-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center;
+    max-width: 220px;
+    margin-top: 10px;
+    padding: 0; 
+}
+
+
+.plans .plan-box .card{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 220px;
+    height: 170px;
+    font-size: 90%;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.850);
+}
+
+.plans .plan-box .card .icons  {
+    margin-top: 3px;
+    font-size: 300%;
+    color: rgb(255, 183, 0);
+}
+
+.plans .plan-box .card span {
+    color: rgb(255, 191, 0);
+    margin: 10px 0;
+}
+.plans .plan-box .card p {
+    font-size: 70%;
+}
+
+
+
+/*------------------------------------------------*/
+/*--FOR THE PLAN ----*/
+/*------------------------------------------------*/
+
+.plan-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.plan-heading {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 72%;
+    background: linear-gradient(rgba(255, 255, 54, 0.849), rgb(255, 191, 0), rgb(248, 144, 26));
+    height: 80px;
+    
+    border-radius: 9px ;
+}
+
+.plan-heading h2 {
+    font-size: 120%;
+    font-weight: 350;
+    
+}
+
+.main-plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.depo-plan {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+
+.black {
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.grey {
+    background-color: rgba(138, 136, 136, 0.349);
+}
+
+.depo-plan h3 {
+    text-transform: uppercase;
+    font-size: 70%;
+    color: rgb(248, 144, 26)
+}
+
+.depo-plan .plan-price {
+    font-size: 330%;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.depo-plan .plan-time {
+    font-size: 75%;
+    font-weight: 500;
+
+}
+
+.depo-plan .deposit {
+    margin-bottom: 10%;
+}
+
+.depo-plan .deposit p {
+    margin-bottom: 0px;
+    font-size: 80%;
+}
+
+.depo-plan .buttons .btn {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.depo-plan .buttons .btn:hover {
+    color: #fff;
+}
+
+
+/*------------------------------------------------*/
+/*--FOR THE BODY INSERT NUMBER----*/
+/*------------------------------------------------*/
+
+.boss-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-tag {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-size: 70%;
+    margin: 5% 10px;
+    border: none;
+}
+.input select {
+    width: 160px;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+}
+.input select option {
+    background-color: rgb(243, 57, 57);
+    color: rgb(255, 191, 0);
+}
+
+.input input[type=number] {
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+
+
+/*------------------------------------------------*/
+/*--FOR THE SECTION-DEFINE----*/
+/*------------------------------------------------*/
+.section-define{
+    background-color:  rgba(18, 18, 24, 0.972);
+}
+.section-define,
+.definition,
+.define-boss {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-define h2 {
+    font-size: 150%;
+    font-weight: 400;
+    color: rgb(255, 191, 0);
+    letter-spacing: normal;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+}
+
+.section-define h2 span {
+    font-weight: 600;
+}
+
+.section-define blockquote {
+    font-size: 70%;
+    text-align: justify;
+    width: 70%;
+    padding-left: 5%;
+}
+
+.define-boss .buttons {
+    display: inline-flex;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+
+/*------------------------------------------------*/
+/*--FOR THE SECTION-CARDS----*/
+/*------------------------------------------------*/
+
+.card-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.card.main-card  {
+    position: relative;
+    background-color: rgb(255, 191, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1px;
+    margin:4%  25px;
+    width: 480px;
+    height: 280px;
+    color: #000;
+    text-transform: uppercase;
+    border: 2px solid rgb(255, 191, 0);
+    border-radius: 25px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;                      
+    font-size: 70%;
+    color: #fff;
+    border-radius: 0px 0px 22px 22px ;
+    width: 100%;
+    height: 220px;
+    padding: 10px 0px ;
+    background-color: #000;
+}
+
+.card-list {
+    margin: 7px auto;
+}
+
+.card-list .card-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card .top-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 90%;
+    font-weight: 700;
+    padding: 15px 20px 0px 30px;
+}
+
+
+.main-card .top-name .cardion {
+    display: inline-flex;
+    font-size: 40px;
+    text-align: center;
+    justify-content: baseline;
+}
+.smithi {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card-list .card-value .smith {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 35px;
+    height: 15px;
+    font-size: 16px;
+    color: rgb(255, 191, 0);
+}
+
+/*------------------------------------------------*/
+/*--FOR THE SECTION-BENEFITS----*/
+/*------------------------------------------------*/
+
+.section-benefits {
+    background-color: rgba(18, 18, 24, 0.972);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bene-heading {
+    display: flex;
+    margin: 3%;
+}
+
+.bene-heading h2:before {
+    display: inline-flex;
+    height: 3px;
+    background-color: rgb(255, 191, 0);
+    content: " ";
+    vertical-align: 13px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.bene-heading h2:after {
+    display: inline-flex;
+    height: 3px;
+    background-color: rgb(255, 191, 0);
+    content: " ";
+    vertical-align: 13px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.bene-heading h2 {
+    font-weight: 350;
+    color: rgb(255, 191, 0);
+}
+
+.bene-heading h2 span {
+    font-weight: 600;
+}
+
+.benefit-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 5%;
+}
+
+.benefits {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 2%;
+}
+
+.benefit-box:last-child {
+    margin-bottom: 2%;
+}
+
+.benefits .icon {
+    display: inline-flex;
+    margin-top: -20px;
+    font-size: 250%;
+    color: rgb(255, 191, 0);
+}
+.bene-define {
+    margin-left: 5%;
+}
+
+.benefits .bene-define h3 {
+    font-size: 90%;
+    color: rgb(255, 191, 0);
+}
+
+.benefits .bene-define p {
+    font-size: 60%;
+    text-align: justify;
+    width: 80%;
+}
+
+
+/*------------------------------------------------*/
+/*--FOR THE SECTION-TESTIMONIAL----*/
+/*------------------------------------------------*/
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    font-size: 60%;
+}
+
+.testimony .design {
+    font-size: 130%;
+}
+
+.testimony p cite:after {
+    display: inline-flex;
+    content: " ";
+    height: 1px;
+    width: 150px;
+    margin-left: -2px;
+    padding: 0;
+    vertical-align: 5px;
+    background-color: #fff;
+}
+
+.testimony .testified li {
+    list-style: none;
+    margin: 0px;
+    padding-bottom: 19px;
+    line-height: 10px;
+}
+
+.testimony h3 {
+    font-size: 150%;
+}
+
+
+/*------------------------------------------------*/
+/*--FOR THE SECTION-REFERRALS----*/
+/*------------------------------------------------*/
+
+.section-referral {
+    background-image: linear-gradient(rgba(8, 8, 8, 0.818),rgba(8, 8, 8, 0.818)), url(../imgs/refferals.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.referal-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0;
+
+}
+
+.referal-heading h2 {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.referal-heading h2 span {
+    font-weight: 900;
+}
+
+.referral-percent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.referral-percent .big-circle {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #fff;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+.referral-percent .small-circle {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:baseline;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-transform: uppercase;
+}
+
+.referral-percent .small-circle span{
+    color: #fff;
+    font-weight: 800;
+    font-size: 120%;
+    padding-top: 20px;
+}
+
+.referral-percent .small-circle p{
+    font-size: 70%;
+}
+
+.referrals-define {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0;
+    padding-left: 3%;
+}
+
+.referrals-define blockquote {
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 90%;
+    font-size: 75%;
+}
+
+.referral-percent .font {
+    color: rgb(255, 191, 0);
+    font-size: 300%;
+    font-weight: 900;
+    padding: 20px;
+    margin: 0 20px;
+}
+.fa-arrow {
+    width: 200px;
+}
+
+/*------------------------------------------------*/
+/*--FOR THE SECTION-LOGO TO FOOTER----*/
+/*------------------------------------------------*/
+
+
+.logo-boss{
+    background-color: rgba(18, 18, 24, 0.972);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos .image-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos .image-icon li {
+    display: flex;
+    list-style: none;
+}
+
+.logos ul li img {
+    border: 5px solid rgb(255, 191, 0);
+    width: 120px;
+    height: 40px;
+    margin: 0 5px;
+}
+.logos .image-icon li a {
+    text-decoration: none;
+    display: flex;
+}
+
+
+/*------------------------------------------------*/
+/*--FOR THE SECTION-FOOTER----*/
+/*------------------------------------------------*/
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    font-size: 60%;
+    font-weight: 500;
+    text-transform: uppercase;
+ }
+
+ .footer-box .footer-name {
+     display: inline-flex;
+     align-items: center;
+     justify-content: flex-start;
+    color: #fff;
+ }
+.footer-box .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-box .footer-main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.footer-box .footer-main-nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 10px;
+}
+.footer-box .footer-main-nav a {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.5s
+}
+
+.footer-main-nav a:hover {
+    text-decoration: none;
+    color: rgb(255, 191, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
